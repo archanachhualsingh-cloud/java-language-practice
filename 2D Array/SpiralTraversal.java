@@ -14,7 +14,7 @@ public class SpiralTraversal {
             }
         }
         int left = 0;
-        int right = col - 1;
+        int right = col- 1;
         int top = 0;
         int bottom = row - 1;
         while (left <= right && top <= bottom) {
