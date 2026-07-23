@@ -15,8 +15,8 @@ public class StrinngFunctions {
         // boolean i=s1.endsWith("ngh");
         // System.out.println(i);
 
-        // int i=s1.compareTo(s2);
-        // System.out.println(i);
+        int i=s1.compareTo(s2);
+        System.out.println(i);
 
         // int i=s1.compareToIgnoreCase(s2);
         // System.out.println(i);
@@ -58,12 +58,13 @@ public class StrinngFunctions {
         // String s = String.valueOf(x);
         // System.out.println(s);
 
-        // String  h=String.join("*","a","b","c");
+        // String h=String.join("*","a","b","c");
         // System.out.println(h);
 
-        String s=String.format("Age : %d",20);
+        // String s = String.format("Age : %d", 20);
+        // System.out.println(s);
 
-System.out.println(s);
+
         sc.close();
     }
 }
